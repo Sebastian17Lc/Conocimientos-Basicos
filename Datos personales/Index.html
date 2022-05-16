@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="CSS/Master.CSS">
+</head>
+
+<body>
+    <form method="POST">
+        <div class="formulario">
+            <H4>Formulario de Datos Personales</H4>
+            <label for="name">Nombres:</label>
+            <br>
+            <input class="controles" type="text" id="name" placeholder="Ingrese Sus Nombres" autofocus>
+            <br>
+            <br>
+            <label for="name">Apellidos:</label>
+            <br>
+            <input class="controles" type="text" id="name" placeholder="Ingrese Sus Apellidos">
+            <br>
+            <br>
+            <label for="name">Email:</label>
+            <br>
+            <input class="controles" type="text" id="name" placeholder="ejemplo@misena.edu.co" required>
+            <br>
+            <br>
+            <label for="Edad">Edad:</label>
+            <br>
+            <input class="controles" type="number" name="Edad" id="Edad" placeholder="Ingrese Su Edad" required>
+            <br>
+            <br>
+            <label for="hbd">Fecha De Nacimiento:</label>
+            <br>
+            <input class="controles" type="date" name="hbd" id="hbd" required>
+            <br>
+            <br>
+            <label for="Tipo De Documento">Tipo De Documento:</label>
+            <br>
+            <select class="controles" name="Tipo De Documento" id="Tipo De Documento" required>
+                <option class="controles" selected="Cédula De Ciudadanía">Cédula De Ciudadanía</option>
+                <option class="controles" selected="Tarjeta De Identidad">Tarjeta De Identidad</option>
+                <option class="controles" selected="Registro Civil">Registro Civil</option>
+                <option class="controles" selected="Documento Extranjero">Documento Extranjero</option>
+            </select>
+            <br>
+            <br>
+            <label for="Digite">Número De Identificación:</label>
+            <br>
+            <input class="controles" type="text" name="Digite" id="Digite" placeholder="Digite El Número" required>
+            <br>
+            <br>
+            <label for="TC">Tipo De Contrato:</label>
+            <br>
+            <input class="controles" type="radio" name="TC" value="Término Indefinido">Término Indefinido<br>
+            <input class="controles" type="radio" name="TC" value="Término Indefinido">Término Fijo<br>
+            <input class="controles" type="radio" name="TC" value="Término Indefinido">Obra Y Labor<br>
+            <input class="controles" type="radio" name="TC" value="Término Indefinido">Aprendizaje<br>
+            <input class="controles" type="radio" name="TC" value="Término Indefinido">Temporal<br>
+            <br>
+            <br>
+            <label for="PP">Perfil Personal:</label>
+            <br>
+            <br>
+            <textarea class="controles" name="pp" id="pp" cols="50" rows="10" placeholder="Descripción" required></textarea>
+            <br>
+            <br>
+            <input class="boton1" type="reset" value="Limpiar Formulario">
+            <input class="boton2"type="submit" value="Enviar Datos">
+    </form>
+    </div>
+</body>
+
+</html>
